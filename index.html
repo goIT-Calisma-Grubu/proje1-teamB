@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./CSS/header.css" />
     <link rel="stylesheet" href="./CSS/hero.css" />
     <link rel="stylesheet" href="./CSS/success.css" />
@@ -16,9 +19,16 @@
     <link rel="stylesheet" href="./CSS/reviews.css" />
     <link rel="stylesheet" href="./CSS/joinfree.css" />
     <link rel="stylesheet" href="./CSS/footer.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <load src="./HTML-PARTS/header.html"></load>
@@ -38,19 +48,17 @@
     <load src="./HTML-PARTS/footer.html"></load>
 
     <script>
-      
-      document.querySelectorAll('load').forEach(async (element) => {
-          const src = element.getAttribute('src');
-          try {
-              const response = await fetch(src);
-              if (!response.ok) throw new Error('Dosya yüklenemedi.');
-              const content = await response.text();
-              element.outerHTML = content;
-          } catch (error) {
-              console.error('Hata:', error);
-          }
+      document.querySelectorAll("load").forEach(async (element) => {
+        const src = element.getAttribute("src");
+        try {
+          const response = await fetch(src);
+          if (!response.ok) throw new Error("Dosya yüklenemedi.");
+          const content = await response.text();
+          element.outerHTML = content;
+        } catch (error) {
+          console.error("Hata:", error);
+        }
       });
-  </script>
-
+    </script>
   </body>
 </html>
