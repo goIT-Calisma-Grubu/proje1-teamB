@@ -1,0 +1,88 @@
+/* VEDAT BAŞAK */
+.joinfree-section {
+  background-color: #0f3557;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.joinfree-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.joinfree-form {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+}
+
+.joinfree-form input[type="email"] {
+  border: none;
+  padding: 12px;
+  flex: 1;
+  outline: none;
+  font-size: 14px;
+}
+
+.joinfree-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.joinfree-form button:hover {
+  background: #218838;
+}
+/* TABLET STYLE */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .joinfree-section {
+    padding: 40px 10px;
+  }
+  .joinfree-section h2 {
+    font-size: 20px;
+  }
+  .joinfree-form {
+    max-width: 100%;
+    width: 90%;
+  }
+  .joinfree-form input[type="email"],
+  .joinfree-form button {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+/* MOBİLE STYLE */
+@media screen and (min-width: 350px) and (max-width: 767px) {
+  .joinfree-section {
+    padding: 30px 5px;
+  }
+  .joinfree-section h2 {
+    font-size: 18px;
+  }
+  .joinfree-form {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+  }
+  .joinfree-form input[type="email"] {
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .joinfree-form button {
+    border-radius: 0 0 5px 5px;
+    font-size: 13px;
+    padding: 10px;
+  }
+}
