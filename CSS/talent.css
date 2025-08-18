@@ -30,3 +30,28 @@ justify-content: center;
       white-space: nowrap; 
         margin: 10px;   
 }
+
+@media (max-width: 1024px) {
+  .logo {
+    flex: 1 1 calc(50% - 40px); 
+    max-width: 200px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .companies-p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .logo-container {
+    gap: 15px;
+  }
+  .logo {
+    flex: 1 1 calc(50% - 30px); 
+    max-width: 160px;
+    height: 48px;
+    font-size: 14px;
+  }
+}
