@@ -1,0 +1,44 @@
+.HowToJoin {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+.HowToJoin-step {
+    width: 670px;
+    height: 64px;
+    top: 2255px;
+    left: 385px;
+}
+.step-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.step h2 {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: HK Grotesk, sans-serif;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #183B56;
+}
+.step .step-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.step img {
+    width: 64px;
+    height: 64px;
+    
+}
+.step h2 span{
+   color: #36B37E;
+}
