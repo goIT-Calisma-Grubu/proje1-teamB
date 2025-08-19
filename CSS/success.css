@@ -1,0 +1,73 @@
+.success {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  text-align: center;
+  gap: 10px;
+}
+
+.success li h1 {
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #183b56;
+}
+
+.success li p {
+  line-height: 24px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #5a7184;
+}
+
+@media screen and (min-width: 768px) {
+  .success {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    text-align: center;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .success li h1 {
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #183b56;
+  }
+
+  .success li p {
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5a7184;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .success {
+    display: grid;
+    list-style: none;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .success li h1 {
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #183b56;
+  }
+
+  .success li p {
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5a7184;
+    text-align: center;
+  }
+}

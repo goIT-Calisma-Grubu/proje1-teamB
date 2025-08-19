@@ -1,0 +1,182 @@
+.ehya-list {
+  list-style: none;
+  text-align: center;
+}
+
+h3 {
+  color: #183b56;
+  text-align: center;
+}
+
+p {
+  color: #5a7184;
+  text-align: center;
+}
+
+.ehya {
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  width: 280px;
+  text-align: center;
+}
+
+.ehya-p {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 280px;
+  text-align: center;
+  margin: auto;
+}
+
+.ehya-list-h3 {
+  line-height: 22px;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.ehya-list-p {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .ehya-list {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0%;
+  }
+
+  h3 {
+    color: #183b56;
+    text-align: left;
+  }
+
+  p {
+    color: #5a7184;
+    text-align: left;
+  }
+
+  .ehya {
+    line-height: 36px;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    width: 173px;
+    text-align: left;
+  }
+
+  .ehya-p {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+
+  .ehya-list-h3 {
+    line-height: 22px;
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .ehya-list-p {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .ehya-box {
+    margin-left: 30px;
+    padding-top: 50px;
+  }
+
+  .ehya-img {
+    display: flex;
+    padding-top: 50px;
+    width: 315px;
+    height: 540px;
+    object-fit: cover;
+    float: right;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ehya-list {
+    list-style: none;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0%;
+  }
+
+  h3 {
+    color: #183b56;
+    text-align: left;
+  }
+
+  p {
+    color: #5a7184;
+    text-align: left;
+  }
+
+  .ehya {
+    line-height: 36px;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    width: 452px;
+    text-align: center;
+  }
+
+  .ehya-p {
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 452px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+
+  .ehya-list-h3 {
+    line-height: 22px;
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .ehya-list-p {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .ehya-box {
+    margin-left: 150px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ehya-img {
+    display: flex;
+    padding-top: 50px;
+    width: 525px;
+    height: 386px;
+    margin-right: 150px;
+  }
+}
