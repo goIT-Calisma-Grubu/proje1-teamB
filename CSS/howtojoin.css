@@ -5,18 +5,32 @@
   background: #fff;
   color: #333;
   text-align: center;
+  
 }
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5a5a5a; 
+  margin-bottom: 40px; 
+}
+
 .HowToJoin-step {
     width: 670px;
     height: 64px;
     top: 2255px;
-    left: 385px;
+    left: 385px;    
 }
+
 .step-Howcontainer {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
+      margin: 0;
+  padding: 0;
+    
 }
+
 .step h2 {
     font-weight: 400;
     font-size: 22px;
@@ -33,6 +47,7 @@
     line-height: 24px;
     letter-spacing: 0px;
     text-align: center;
+    
 }
 .step img {
     width: 64px;
