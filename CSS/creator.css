@@ -1,0 +1,108 @@
+.mentor-section {
+background-color: #2BB673;
+  padding: 60px;
+  max-width: 1500px; 
+  margin: 0 auto;    
+  border-radius: 4px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.mentor-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  
+}
+
+.mentor-title h2 {
+ /*font-size: 32px;
+  margin: 0; */
+  width: 301px;
+  height: 96px;
+  top: 2783px;
+  left: 150px;
+  font: hk-grotesk, sans-serif;
+}
+
+.mentor-description {
+  max-width: 584px;
+  height: 64px;
+  top: 2799px;
+  left: 707px;
+}
+
+.mentor-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0f0e9;
+}
+
+.mentor-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.mentor-card {
+  background-color: white;
+  color: #000;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1 1 calc(25% - 20px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mentor-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.mentor-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.mentor-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.mentor-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 12px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.dot.active {
+  background-color: #fdbb2d; 
+  width: 20px;
+}
+
+.mentor-footer p {
+  margin: 0;
+  font-size: 14px;
+}
